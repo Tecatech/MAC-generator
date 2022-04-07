@@ -67,6 +67,8 @@ class MAC(object):
     def __subkeys(self):
         if self.mode == Modes.OMAC or self.mode == Modes.tMAC:
             const_Rb = 0x87
+        else:
+            const_Rb = 0x1B
         
         zero_block = b'\x00' * self.block_size
         L = self.factory.encrypt(zero_block)

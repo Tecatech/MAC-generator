@@ -87,5 +87,5 @@ def timing():
     print(*omac_graph, sep = ' ')
     print(*hmac_graph, sep = ' ')
 
-if __name__ == '__main__':    
+if __name__ == '__main__':
     timing()
