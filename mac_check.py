@@ -1,14 +1,12 @@
-from mac import *
-
 from Crypto.Cipher import AES
 from Crypto.Hash import CMAC
 from Crypto.Random import get_random_bytes
-
 import hashlib
 import hmac
-
 import sys
 import time
+
+from mac import *
 
 def VerifyOmac():
     key = get_random_bytes(AES.block_size)

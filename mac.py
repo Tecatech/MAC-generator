@@ -1,9 +1,8 @@
 from Crypto.Cipher import AES
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 from Crypto.Util.Padding import pad
-from Crypto.Util.py3compat import bord, _copy_bytes
+from Crypto.Util.py3compat import _copy_bytes, bord
 from Crypto.Util.strxor import strxor
-
 import enum
 import hashlib
 
