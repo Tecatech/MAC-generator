@@ -1,1 +1,1 @@
-# Tool for authenticating messages with message authentication codes (MACs)
+# Tool for authenticating messages with Message Authentication Codes (MACs)
